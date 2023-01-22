@@ -9,6 +9,9 @@ body {
 
 /* nav bar code start */
 
+.active {
+    font-weight: bold;
+}
 
 #logo {
     float: left;

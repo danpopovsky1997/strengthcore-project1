@@ -64,16 +64,11 @@ nav a:hover {
 
 }
 
-
-
-
-
-
-
 /* hero-image code end */
 
 
 /* Mission Statement code start */
+
 #mission-statement {
     text-align: center;
     text-transform: uppercase;
@@ -81,4 +76,16 @@ nav a:hover {
     padding: 25px;
     margin-top: -6px;
     box-shadow: 1px -4.9px 10px 1px;
+}
+
+/* Mission Statement code end */
+
+/* equipment pictures code start */
+
+#facilities img {
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
 }

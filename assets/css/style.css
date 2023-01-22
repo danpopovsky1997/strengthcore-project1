@@ -55,6 +55,12 @@ nav a:hover {
 
 /* hero-image code start */
 
+#hero-image img{
+    width: 100vw;
+    height: auto;
+
+}
+
 
 
 
@@ -62,3 +68,14 @@ nav a:hover {
 
 
 /* hero-image code end */
+
+
+/* Mission Statement code start */
+#mission-statement {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: yellow;
+    padding: 25px;
+    margin-top: -6px;
+    box-shadow: 1px -4.9px 10px 1px;
+}

@@ -122,6 +122,31 @@ nav a:hover {
     text-align: center;
 }
 
+#membership-hp {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    margin-left: 97px;
+    margin-right: 25px;
+}
+
+#membership-hp div {
+    margin-right: 5px;
+}
+
+#membership-hp div h2 {
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 81px;
+    background-color: gray;
+    color: white;
+    opacity: 90%;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+#membership-hp img {
+    width: 29.5em;
+}
 
 
 /*offers code end */

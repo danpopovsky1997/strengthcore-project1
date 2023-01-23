@@ -82,6 +82,20 @@ nav a:hover {
 
 /* equipment pictures code start */
 
+#fac-header {
+    background-color: #000000;
+    margin-top: -20px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: -20px;
+
+}
+
+#fac-header h2 {
+    text-align: center;
+}
+
 #facilities img {
     width: 50%;
     height: auto;
@@ -91,3 +105,57 @@ nav a:hover {
 }
 
 /* equipment pictures code end */
+
+
+/*offers code start */
+#offer-header {
+    background-color: #000000;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: -20px;
+    
+
+}
+
+#offer-header h2 {
+    text-align: center;
+}
+
+
+
+/*offers code end */
+
+
+
+
+/* footer */
+
+#container-7 {
+    height: 175px;
+    
+    }
+    
+    .social-networks {
+        text-align: center;
+    
+    }
+    
+    .social-networks > li {
+        display: inline;
+    }
+     
+    .social-networks i {
+        font-size: 160%;
+        margin: 1%;
+        padding: 5%;
+        color: #3a3a3a;
+    }
+
+    #copyright-info {
+        text-align: center;
+        padding: 25px;
+        margin-top: 25px;
+        text-transform: uppercase;
+
+    }

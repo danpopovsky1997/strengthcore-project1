@@ -297,3 +297,32 @@ nav a:hover {
     font-weight: bold;
     }
 
+
+    /* sign-up page */
+
+    #container-3 {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    margin-bottom: 25px;
+    }
+
+    #bg-image {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    margin-bottom: 25px;
+    }
+
+    #sign-up-form {
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: absolute;
+    justify-items: center;
+    }
+

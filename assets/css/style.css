@@ -224,3 +224,76 @@ nav a:hover {
         text-transform: uppercase;
 
     }
+
+    /* Membership Page */
+
+    #container-2 {
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    #one-month {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    width: 150%;
+    height: auto;
+    background: #1e1e1e;
+    }
+
+    #one-month-img {
+        margin-top: 5px
+    }
+
+    #one-month-img img {
+
+    width: 100%;
+    height: auto;
+
+    }
+
+    #one-month-contents {
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px;
+    margin-left: 15px;
+
+    }
+
+    #one-month-contents h2 {
+        text-decoration: underline;
+    }
+
+    #one-month-ul {
+
+        list-style-type: disc;
+
+    }
+
+    #one-month-button {
+
+    background: yellow;
+    width: fit-content;
+    border-radius: 5px;
+
+    }
+
+    #one-month-button:hover {
+
+        background: rgb(255, 255, 134);
+
+        }
+
+
+
+    #one-month-button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    }
+

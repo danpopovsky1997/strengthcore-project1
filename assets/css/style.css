@@ -59,7 +59,7 @@ nav a:hover {
 /* hero-image code start */
 
 #hero-image img{
-    width: 100vw;
+    width: 99.1vw;
     height: auto;
 
 }
@@ -241,6 +241,7 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     margin-top: -15px;
+    margin-left: -29px;
     width: 150%;
     height: auto;
     background: #1e1e1e;
@@ -297,6 +298,103 @@ nav a:hover {
     font-weight: bold;
     }
 
+    #container-2-2 {
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    #three-month {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    width: 150%;
+    height: auto;
+    background: #1e1e1e;
+    }
+
+    #three-month-img {
+        margin-top: 5px
+    }
+
+    #three-month-img img {
+
+    width: 100%;
+    height: auto;
+
+    }
+
+    #three-month-contents {
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px;
+    margin-left: 15px;
+
+    }
+
+    #three-month-contents h2 {
+        text-decoration: underline;
+    }
+
+    #three-month-ul {
+
+        list-style-type: disc;
+
+    }
+
+    #container-2-3 {
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    #six-month {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -15px;
+    margin-left: -9px;
+    width: 150%;
+    height: auto;
+    background: #1e1e1e;
+    }
+
+    #six-month-img {
+        margin-top: 5px
+    }
+
+    #six-month-img img {
+
+    width: 100%;
+    height: auto;
+
+    }
+
+    #six-month-contents {
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 5px;
+    margin-left: 15px;
+
+    }
+
+    #six-month-contents h2 {
+        text-decoration: underline;
+    }
+
+    #six-month-ul {
+
+        list-style-type: disc;
+
+    }
+
 
     /* sign-up page */
 
@@ -319,10 +417,42 @@ nav a:hover {
     }
 
     #sign-up-form {
-    color: black;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    position: absolute;
-    justify-items: center;
+        position: absolute;
+        width: 900px;
+        height: 450px;
+        background-color: yellow;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-transform: uppercase;
+        letter-spacing: 5px;
     }
+
+    #sign-up-form h2 {
+        text-decoration: underline;
+    }
+
+    #sign-up-contents {
+        display: flex;
+    }
+
+    #sign-up-contents, form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .join-button {
+        background: gray;
+        color: white;
+        font-size: x-large;
+        margin-top: 35px;
+        border-radius: 5px;
+        font-weight: 900;
+    }
+    
+
 

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap'); /*imported font from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap');
+/*imported font from google fonts*/
 
 
 body {
@@ -409,76 +410,82 @@ form {
 }
 
 /* media queries */
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 1460px) {
 
-#container-1 {
-    width: 120vw;
-    height: auto;
+    #mission-statement {
+        width: 96vw;
+        height: auto;
     }
 
-#hero-image img {
-    width: 121vw;
-    height: auto;
+    #facilities {
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #000000be;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #membership-hp {
+        margin-top: -20px;
+        margin-bottom: 5px;
+        background: #000000be;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #membership-hp div {
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    #container-1,
+    #hero-image,
+    #fac-header,
+    #facilities,
+    #offer-header,
+    #memberships-hp,
+    #socials-header,
+    #container-7,
+    #copyright-info {
+        width: 99vw;
+        height: auto;
+    }
 }
 
-#mission-statement {
-    width: 115vw;
-    height: auto;
+@media screen and (max-width: 739px) {
+
+    #facilities img {
+        width: 675px;
+    }
 }
 
-#fac-header {
-    width: 129vw;
-    height: auto;
+@media screen and (max-width: 540px) {
+
+    #logo {
+        float: left;
+        font-size: 1em;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 10px;
+    }
+
+    nav li {
+        font-size: 0.6em;
+        line-height: 40px;
+        height: 40px;
+        display: inline-block;
+        margin: 2.5%;
+    }
+
+
+    #facilities img {
+        width: 450px;
+    }
 }
 
-#facilities {
-    width: 129vw;
-    height: auto;
-    display: flex;
-    flex-wrap: nowrap;
-    background-color: #000000be;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
 
-#offer-header {
-    width: 129vw;
-    height: auto;
-}
-
-#membership-hp {
-    margin-top: -20px;
-    width: 129vw;
-    height: auto;
-    margin-bottom: 5px;
-    background: #000000be;
-
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-#membership-hp div {
-    margin-right: 5px;
-    margin-top: 5px;
-}
-
-#socials-header {
-    width: 129vw;
-    height: auto
-}
-
-#container-7 {
-    width: 129vw;
-    height: auto;
-}
-
-#copyright-info {
-    width: 129vw;
-    height: auto;
-}
-
-}
+    

@@ -411,7 +411,7 @@ form {
 /* media queries */
 @media screen and (max-width: 912px) {
 
-    #container-1 {
+#container-1 {
     width: 120vw;
     height: auto;
     }
@@ -480,7 +480,5 @@ form {
     width: 129vw;
     height: auto;
 }
-
-
 
 }

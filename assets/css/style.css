@@ -162,6 +162,9 @@ nav a:hover {
 }
 
 #container-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: -18px;
     height: 250px;
     box-shadow: 0 0 3px 0px;
@@ -174,7 +177,8 @@ nav a:hover {
 }
 
 .social-networks>li {
-    display: inline;
+    display: inline-flex;
+    padding: 15px 35px 15px 30px;
 }
 
 .social-networks i {
@@ -411,81 +415,57 @@ form {
 
 /* media queries */
 @media screen and (max-width: 1460px) {
-
-    #mission-statement {
-        width: 96vw;
-        height: auto;
-    }
-
     #facilities {
         display: flex;
-        flex-wrap: nowrap;
-        background-color: #000000be;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
+        align-content: center;
+        align-items: center;
     }
 
     #membership-hp {
-        margin-top: -20px;
-        margin-bottom: 5px;
-        background: #000000be;
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #000000be;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -2%;
     }
 
-    #membership-hp div {
-        margin-right: 5px;
-        margin-top: 5px;
+    #membership-hp div:first-of-type {
+        margin-top: 25px;
     }
 
-    #container-1,
-    #hero-image,
-    #fac-header,
-    #facilities,
-    #offer-header,
-    #memberships-hp,
-    #socials-header,
-    #container-7,
-    #copyright-info {
-        width: 99vw;
-        height: auto;
+    #membership-hp img {
+        margin-bottom: 15px;
+        box-shadow: 0 0 20px 0px;
     }
-}
-
-@media screen and (max-width: 739px) {
-
-    #facilities img {
-        width: 675px;
-    }
-}
-
-@media screen and (max-width: 540px) {
-
-    #logo {
-        float: left;
-        font-size: 1em;
-        text-transform: uppercase;
-        font-weight: bold;
-        letter-spacing: 10px;
-    }
-
-    nav li {
-        font-size: 0.6em;
-        line-height: 40px;
-        height: 40px;
-        display: inline-block;
-        margin: 2.5%;
-    }
-
-
-    #facilities img {
-        width: 450px;
-    }
-}
-
-
     
+}
+
+@media screen and (max-width: 750px) {
+    nav ul {
+        font-size: 75%;
+    }
+
+
+    #mission-statement {
+        font-size: 75%;
+    }
+
+    #facilities img {
+        width: 75%;
+    }
+
+}
+
+@media screen and (max-width: 535px) {
+    nav ul {
+        font-size: 55%;
+    }
+
+}
+  
+
+
+

@@ -115,11 +115,13 @@ nav a:hover {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    margin-top: -20px;
+    background-color: #000000be;
 }
 
 #membership-hp div {
     margin-right: 5px;
-    margin-top: -15px;
+    margin-top: 5px;
 }
 
 #membership-hp div h2 {
@@ -424,23 +426,23 @@ form {
     }
 
     #membership-hp {
-    display: flex;
-    justify-content: center;
-    background-color: #000000be;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -2%;
+        display: flex;
+        justify-content: center;
+        background-color: #000000be;
+        flex-direction: column;
+        align-items: center;
+
     }
 
     #membership-hp div:first-of-type {
-        margin-top: 25px;
+        margin-top: 5px;
     }
 
+
     #membership-hp img {
-        margin-bottom: 15px;
+        margin-bottom: 2px;
         box-shadow: 0 0 20px 0px;
     }
-    
 }
 
 @media screen and (max-width: 750px) {
@@ -454,18 +456,86 @@ form {
     }
 
     #facilities img {
-        width: 75%;
+        width: 95%;
     }
-
 }
 
 @media screen and (max-width: 535px) {
     nav ul {
         font-size: 55%;
     }
-
 }
-  
 
+/*media queries for memberships page*/
+@media screen and (max-width: 1085px) {
 
+    #one-month-contents,
+    #three-month-contents,
+    #six-month-contents {
+        font-size: 75%;
 
+    }
+
+    #one-month-img,
+    #three-month-img,
+    #six-month-img {
+        width: 55%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 915px) {
+
+    #one-month,
+    #three-month,
+    #six-month {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #one-month-img,
+    #three-month-img,
+    #six-month-img {
+        width: 55%;
+        height: auto;
+    }
+
+    #one-month-button,
+    #three-month-button,
+    #six-month-button {
+        margin-bottom: 5px;
+    }
+}
+
+/* media queries for sign-up page */
+@media screen and (max-width: 920px) {
+    #sign-up-form {
+        width: 85vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #sign-up-form {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #sign-up-form h2 {
+        font-size: 100%;
+        margin-bottom: 5%;
+        margin-top: 50px;
+
+    }
+}
+
+@media screen and (max-width: 515px) {
+    #sign-up-form {
+        font-size: 55%;
+        margin-bottom: 5px;
+        margin-top: 50px;
+    }
+}

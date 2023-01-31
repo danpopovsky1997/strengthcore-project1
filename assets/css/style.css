@@ -539,3 +539,22 @@ form {
         margin-top: 50px;
     }
 }
+
+@media (max-width: 390px) {
+    #container-1,
+    #hero-image img,
+    #fac-header,
+    #facilities,
+    #offer-header,
+    #membership-hp,
+    #socials-header,
+    #container-7 {
+        width: 110vw;
+    }
+
+    #mission-statement {
+        width: 97vw;
+    }
+
+
+}

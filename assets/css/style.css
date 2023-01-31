@@ -540,7 +540,7 @@ form {
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 390px) { /* iphone 12 pro media query */
     #container-1,
     #hero-image img,
     #fac-header,
@@ -549,11 +549,19 @@ form {
     #membership-hp,
     #socials-header,
     #container-7 {
-        width: 110vw;
+        width: 115vw;
     }
 
     #mission-statement {
-        width: 97vw;
+        width: 102vw;
+    }
+
+    #membership-hp {
+        font-size: 92%;
+    }
+
+    .social-networks {
+        margin-right: 35px;
     }
 
 

@@ -63,7 +63,7 @@ The website is designed with the following target audience in mind:
 - Pople who want a one to one coaching experience 
 - People who want to be part of a community
 
-### User requirments and Expectations
+### User Requirments and Expectations
 - Simple user interface
 - A navigation system that is easy to use
 - Easy to navigate relevant information 
@@ -93,7 +93,6 @@ As a returning user,
 12. As a site owner, I want the website to be visually appealing to the customer
 13. As a site owner, I want the function of the website to be clear
 
-
 ## Design
 
 ### Design Choices
@@ -105,3 +104,47 @@ I wanted to keep the color scheme simple and modern, with a touch of yellow as I
 
 ### Fonts
 The font I choice to use was "Kanit", with sans serif as the backup font. I feel this font gave off the modern vibe I was looking for
+
+### Structure
+To keep the website experience simple and easy to navigate I decided to go with navigation bar that displays the set menus: 
+- Home page: Shows images of the facilities and advertises memberships
+- Memberships page: Gives details about the memberships that are on offer with a link to the sign up page
+- Sign up page: Allows the user to fill out a form with the preferred membership type
+
+### Wireframes
+<details><summary>Home Page</Summary>
+<img src="docs/wireframes/index.png">  
+</details>
+<details><summary>Membership Page</Summary>
+<img src="docs/wireframes/tricks.png">  
+</details>
+<details><summary>Sign Up Page</Summary>
+<img src="docs/wireframes/boards.png">  
+</details>
+<details><summary>Desktop View</Summary>
+<img src="docs/wireframes/contact.png">  
+</details>
+<details><summary>Tablet View</Summary>
+<img src="docs/wireframes/404.png">  
+</details>
+<details><summary>Mobile View</Summary>
+<img src="docs/wireframes/404.png">  
+</details>
+
+## Technologies Used
+
+### Languages Used
+To design and build my website I used the following:
+- HTML
+- CSS
+
+### Frameworks and Tools
+- Git
+- Github
+- Gitpod
+- Google Fonts
+- Balsamiq
+- Canva
+
+## Features 
+The website contains 3 pages the homepage, membership page, and sign up page

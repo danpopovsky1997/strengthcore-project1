@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap');
-/*imported font from google fonts*/
-
+/* imported font from google fonts "kanit" */
 
 body {
     margin: 0;
@@ -36,7 +35,6 @@ nav li {
     height: 40px;
     display: inline-block;
     margin: 1.5%;
-
 }
 
 nav a {
@@ -53,10 +51,11 @@ nav a:hover {
 }
 
 #hero-image img {
-    width: 99.1vw;
+    width: 100vw;
     height: auto;
-
 }
+
+/* homepage css*/
 
 #mission-statement {
     text-align: center;
@@ -73,8 +72,7 @@ nav a:hover {
     color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-bottom: -20px;
-
+    margin-bottom: -25px;
 }
 
 #fac-header h2 {
@@ -102,9 +100,8 @@ nav a:hover {
     color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-top: -20px;
-
-
+    margin-top: -25px;
+    margin-bottom: -20px;
 }
 
 #offer-header h2 {
@@ -116,6 +113,7 @@ nav a:hover {
     flex-wrap: nowrap;
     justify-content: center;
     margin-top: -20px;
+    margin-bottom: 25px;
     background-color: #000000be;
 }
 
@@ -136,7 +134,6 @@ nav a:hover {
 }
 
 #membership-hp div h2:hover {
-
     position: absolute;
     margin-top: 135px;
     margin-left: 65px;
@@ -156,7 +153,7 @@ nav a:hover {
     color: white;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-top: -20px;
+    margin-top: -25px;
 }
 
 #socials-header h2 {
@@ -167,7 +164,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -18px;
+    margin-top: -20px;
     height: 250px;
     box-shadow: 0 0 3px 0px;
     background-color: black
@@ -175,7 +172,6 @@ nav a:hover {
 
 .social-networks {
     text-align: center;
-
 }
 
 .social-networks>li {
@@ -188,7 +184,6 @@ nav a:hover {
     margin: 1%;
     padding: 5%;
     color: yellow;
-
 }
 
 #copyright-info {
@@ -196,166 +191,65 @@ nav a:hover {
     padding: 25px;
     margin-top: 25px;
     text-transform: uppercase;
-
 }
 
+/*membership page css*/
+
 #container-2 {
-    flex-wrap: nowrap;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #000000be;
+    margin-top: -13px;
     margin-bottom: 25px;
+}
+
+#one-month,
+#three-month,
+#six-month {
+    box-shadow: 0 0 3px 0px;
+    margin-bottom: 5px;
 }
 
 #one-month {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    margin-top: -15px;
-    margin-left: -29px;
-    width: 150%;
-    height: auto;
-    background: #1e1e1e;
+    margin-top: 5px;
 }
 
-#one-month-img {
-    margin-top: 5px
-}
-
-#one-month-img img {
-
-    width: 100%;
-    height: auto;
-
-}
-
-#one-month-contents {
+#one-month-contents,
+#three-month-contents,
+#six-month-contents {
+    background-color: black;
     text-transform: uppercase;
     color: white;
-    letter-spacing: 5px;
-    margin-left: 15px;
-
+    text-align: center;
+    margin-top: -27px;
+    margin-bottom: -5px;
 }
 
-#one-month-contents h2 {
-    text-decoration: underline;
-}
-
-#one-month-ul {
-
-    list-style-type: disc;
-
+#one-month-contents li,
+#three-month-contents li,
+#six-month-contents li {
+    list-style-type: none;
 }
 
 #one-month-button {
-
-    background: yellow;
-    width: fit-content;
-    border-radius: 5px;
-
-}
-
-#one-month-button:hover {
-
-    background: rgb(255, 255, 134);
-
+    margin-bottom: 5px;
 }
 
 #one-month-button a {
+    background-color: yellow;
+    color: #000000;
+    padding: auto;
     text-decoration: none;
-    color: black;
     font-weight: bold;
+    border-radius: 5px;
 }
 
-#container-2-2 {
-    flex-wrap: nowrap;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 25px;
-}
-
-#three-month {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    margin-top: -15px;
-    width: 150%;
-    height: auto;
-    background: #1e1e1e;
-}
-
-#three-month-img {
-    margin-top: 5px
-}
-
-#three-month-img img {
-
-    width: 100%;
-    height: auto;
-
-}
-
-#three-month-contents {
-    text-transform: uppercase;
-    color: white;
-    letter-spacing: 5px;
-    margin-left: 15px;
-}
-
-#three-month-contents h2 {
-    text-decoration: underline;
-}
-
-#three-month-ul {
-    list-style-type: disc;
-}
-
-#container-2-3 {
-    flex-wrap: nowrap;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 25px;
-}
-
-#six-month {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    margin-top: -15px;
-    margin-left: -9px;
-    width: 150%;
-    height: auto;
-    background: #1e1e1e;
-}
-
-#six-month-img {
-    margin-top: 5px
-}
-
-#six-month-img img {
-    width: 100%;
-    height: auto;
-}
-
-#six-month-contents {
-    text-transform: uppercase;
-    color: white;
-    letter-spacing: 5px;
-    margin-left: 15px;
-
-}
-
+#one-month-contents h2,
+#three-month-contents h2,
 #six-month-contents h2 {
     text-decoration: underline;
-}
-
-#six-month-ul {
-    list-style-type: disc;
 }
 
 #container-3 {
@@ -367,13 +261,21 @@ nav a:hover {
     margin-bottom: 25px;
 }
 
+/*sign-up page css*/
+
+#container-4 {
+    margin-top: -20px;
+}
+
 #bg-image {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     margin-top: -15px;
-    margin-bottom: 25px;
+    margin-bottom: 26px;
+    width: 100vw;
+    height: auto;
 }
 
 #sign-up-form {
@@ -419,150 +321,46 @@ form {
 @media screen and (max-width: 1460px) {
     #facilities {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-    }
-
-    #membership-hp {
-        display: flex;
+        flex-wrap: nowrap;
         justify-content: center;
         background-color: #000000be;
         flex-direction: column;
         align-items: center;
-
-    }
-
-    #membership-hp div:first-of-type {
-        margin-top: 5px;
-    }
-
-
-    #membership-hp img {
-        margin-bottom: 2px;
-        box-shadow: 0 0 20px 0px;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    nav ul {
-        font-size: 75%;
-    }
-
-
-    #mission-statement {
-        font-size: 75%;
-    }
-
-    #facilities img {
-        width: 95%;
-    }
-}
-
-@media screen and (max-width: 535px) {
-    nav ul {
-        font-size: 55%;
-    }
-}
-
-/*media queries for memberships page*/
-@media screen and (max-width: 1085px) {
-
-    #one-month-contents,
-    #three-month-contents,
-    #six-month-contents {
-        font-size: 75%;
-
-    }
-
-    #one-month-img,
-    #three-month-img,
-    #six-month-img {
-        width: 55%;
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 915px) {
-
-    #one-month,
-    #three-month,
-    #six-month {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    #one-month-img,
-    #three-month-img,
-    #six-month-img {
-        width: 55%;
-        height: auto;
-    }
-
-    #one-month-button,
-    #three-month-button,
-    #six-month-button {
-        margin-bottom: 5px;
-    }
-}
-
-/* media queries for sign-up page */
-@media screen and (max-width: 920px) {
-    #sign-up-form {
-        width: 85vw;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    #sign-up-form {
-        font-size: 75%;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    #sign-up-form h2 {
-        font-size: 100%;
-        margin-bottom: 5%;
-        margin-top: 50px;
-
-    }
-}
-
-@media screen and (max-width: 515px) {
-    #sign-up-form {
-        font-size: 55%;
-        margin-bottom: 5px;
-        margin-top: 50px;
-    }
-}
-
-@media (max-width: 390px) { /* iphone 12 pro media query */
-    #container-1,
-    #hero-image img,
-    #fac-header,
-    #facilities,
-    #offer-header,
-    #membership-hp,
-    #socials-header,
-    #container-7 {
-        width: 115vw;
-    }
-
-    #mission-statement {
-        width: 102vw;
     }
 
     #membership-hp {
-        font-size: 92%;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-top: -20px;
+        margin-bottom: 25px;
+        background-color: #000000be;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
     }
 
-    .social-networks {
-        margin-right: 35px;
-    }
-
-
+    #membership-hp div {
+        margin-bottom: -1px;
+    } 
 }
+
+@media screen and (max-width: 730px) {
+    #facilities img {
+        width: 456px;
+    }
+
+    #mission-statement {
+        font-size: 75%
+    }
+
+    #container-1 {
+        font-size: 75%;
+    }
+
+    #sign-up-form {
+        font-size: 75%;
+        width: 575px;
+    }
+}
+

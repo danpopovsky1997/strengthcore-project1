@@ -168,7 +168,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - The facilities are shown on the homepage
 - A description of the facilities is provided
 - They are also responsive to media screen sizes
-<details><summary>Footer</Summary>
+<details><summary>Facilities</Summary>
 <img src="assets/docs/facilities.PNG">  
 </details>
 
@@ -177,7 +177,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - By clicking the button on the homepage it redirects to the membership page
 - On the memberdship page it provides or relvant membership details
 - By clicking the sign up button it redirects them to the sign up page
-<details><summary>Footer</Summary>
+<details><summary>Membershipsr</Summary>
 <img src="assets/docs/memberships.PNG">  
 </details>
 
@@ -186,11 +186,8 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - The user fills out their details and membership preference
 - This form has a submit button 'Let's Get Fit!'
 - This form is sent to an email
-<details><summary>Footer</Summary>
+<details><summary>Sign Up Form</Summary>
 <img src="assets/docs/signup.PNG">  
-</details>
-<details><summary>Footer</Summary>
-<img src="assets/docs/signup-form-sent.png">  
 </details>
 
 ### Hero Image

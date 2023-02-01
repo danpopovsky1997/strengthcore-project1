@@ -1,7 +1,7 @@
 # Strength Core
 (Developer: Daniel Popovsky)
 
-![Mockup image](docs/responsive.png)
+![Mockup image](assets/docs/responsivness.png)
 
 [Live webpage](https://danpopovsky1997.github.io/strengthcore-project1/index.html)
 
@@ -63,7 +63,7 @@ The website is designed with the following target audience in mind:
 - Pople who want a one to one coaching experience 
 - People who want to be part of a community
 
-### User Requirments and Expectations
+### User Requirements and Expectations
 - Simple user interface
 - A navigation system that is easy to use
 - Easy to navigate relevant information 
@@ -133,7 +133,7 @@ To keep the website experience simple and easy to navigate I decided to go with 
 
 ## Technologies Used
 
-### Languages Used
+### Languages
 To design and build my website I used the following:
 - HTML
 - CSS

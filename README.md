@@ -194,13 +194,13 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - A hero image is displayed on everypage
 - Every page has a different hero image
 - This hero image indicates what the current page is about
-<details><summary>Footer</Summary>
+<details><summary>Hero Image Home Page</Summary>
 <img src="assets/docs/hero-image-1.png">  
 </details>
-<details><summary>Footer</Summary>
+<details><summary>Hero Image Membership Page</Summary>
 <img src="assets/docs/hero-image-2.png">  
 </details>
-<details><summary>Footer</Summary>
+<details><summary>Hero Image Sign Up Page</Summary>
 <img src="assets/docs/hero-image-3.png">  
 </details>
 

@@ -144,4 +144,73 @@ To design and build my website I used the following:
 - Canva
 
 ## Features 
-The website contains 3 pages the homepage, membership page, and sign up page
+The website contains 3 pages the homepage, membership page, sign up page, 404 page and a total of 20 features
+
+###Header (includes logo on the left and navigation on the right)
+- The nav bar shows every page
+- The nav bar includes a logo
+- The nav bar includes 3 menu options
+- The current page is highlighted 'bold'
+<details><summary>Header</Summary>
+<img src="assets/docs/header.png">  
+</details>
+
+### Footer
+- The footer shows on every page
+- The footer includes links to social media accounts
+- The footer also has copyright text
+<details><summary>Footer</Summary>
+<img src="assets/docs/footer.png">  
+</details>
+
+### Facilities
+- The facilities are shown on the homepage
+- A description of the facilities is provided
+- They are also responsive to media screen sizes
+<details><summary>Footer</Summary>
+<img src="assets/docs/facilities.png">  
+</details>
+
+### Membership Options
+- Options are advertised on the homepage
+- By clicking the button on the homepage it redirects to the membership page
+- On the memberdship page it provides or relvant membership details
+- By clicking the sign up button it redirects them to the sign up page
+<details><summary>Footer</Summary>
+<img src="assets/docs/membership-options.png">  
+</details>
+
+### Sign Up Form
+- The sign up form is located on the sign up page
+- The user fills out their details and membership preference
+- This form has a submit button 'Let's Get Fit!'
+- This form is sent to an email
+<details><summary>Footer</Summary>
+<img src="assets/docs/signup-form.png">  
+</details>
+<details><summary>Footer</Summary>
+<img src="assets/docs/signup-form-sent.png">  
+</details>
+
+### Hero Image
+- A hero image is displayed on everypage
+- Every page has a different hero image
+- This hero image indicates what the current page is about
+<details><summary>Footer</Summary>
+<img src="assets/docs/hero-image-1.png">  
+</details>
+<details><summary>Footer</Summary>
+<img src="assets/docs/hero-image-2.png">  
+</details>
+<details><summary>Footer</Summary>
+<img src="assets/docs/hero-image-3.png">  
+</details>
+
+##Validation
+
+### HTML Validation
+
+
+
+
+

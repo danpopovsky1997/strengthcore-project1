@@ -100,6 +100,7 @@ The website was designed to make it look modern, simplistic, easy to use and acc
 
 ### Colour
 I wanted to keep the color scheme simple and modern, with a touch of yellow as I feel this would make the webisite more appealing to the eye.
+
 ![Colours image](assets/docs/colour-palette.PNG)
 
 ### Fonts

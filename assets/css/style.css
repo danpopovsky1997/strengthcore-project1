@@ -227,6 +227,12 @@ nav a:hover {
     margin-bottom: -5px;
 }
 
+#one-month-contents ul, 
+#three-month-contents ul,
+#six-month-contents ul {
+    display: contents;
+}
+
 #one-month-contents li,
 #three-month-contents li,
 #six-month-contents li {
@@ -234,6 +240,7 @@ nav a:hover {
 }
 
 #one-month-button {
+    margin-top: 40px;
     margin-bottom: 5px;
 }
 
@@ -407,6 +414,16 @@ form {
 
     }
 
+    #one-month-contents,
+    #three-month-contents,
+    #six-month-contents {
+    font-size: 50%;
+    text-align: center;
+    margin-top: -13px;
+    height: 102px;
+    text-align: center;
+    }
+
     #sign-up-form {
         width: 350px;
     }
@@ -465,6 +482,7 @@ form {
     #one-month img,
     #three-month img,
     #six-month img {
+        font-size: 50%;
         width: 100%;
     }
 

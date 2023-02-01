@@ -113,16 +113,13 @@ To keep the website experience simple and easy to navigate I decided to go with 
 
 ### Wireframes
 <details><summary>Home Page</Summary>
-<img src="docs/wireframes/index.png">  
+<img src="assets/docs/homepage-wireframe.png">  
 </details>
 <details><summary>Membership Page</Summary>
-<img src="docs/wireframes/tricks.png">  
+<img src="assets/docs/membership-wireframe.png">  
 </details>
 <details><summary>Sign Up Page</Summary>
-<img src="docs/wireframes/boards.png">  
-</details>
-<details><summary>Desktop View</Summary>
-<img src="docs/wireframes/contact.png">  
+<img src="assets/docs/signup-wireframe.png">  
 </details>
 <details><summary>Tablet View</Summary>
 <img src="docs/wireframes/404.png">  

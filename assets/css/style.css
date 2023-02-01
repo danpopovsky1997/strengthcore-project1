@@ -325,10 +325,110 @@ form {
     font-weight: 900;
 }
 
-/* media queries */
-@media screen and (max-width: 390px) {
+/* media queries for desktop, laptop and tablet devices */
+@media screen and (max-width: 1465px) {
+    #facilities {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        background-color: #000000be;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #membership-hp {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        margin-top: -20px;
+        margin-bottom: 25px;
+        background-color: #000000be;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mission-statement {
+        font-size: 75%;
+    }
+
+    #container-1 {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 728px) {
+    #facilities img {
+        width: 465px;
+    }
+
+    #sign-up-form {
+        width: 520px;
+    }
+
+    #sign-up-form h2 {
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    #container-1 {
+        font-size: 65%;
+    }
+
+    #one-month,
+    #three-month,
+    #six-month {
+        width: 75%
+    }
+
+    #one-month img,
+    #three-month img,
+    #six-month img {
+        width: 100%
+    }
+
+}
+
+@media screen and (max-width: 495px) {
+    #container-1 {
+        font-size: 55%
+    }
+
+    #facilities img {
+        width: 70%;
+    }
+
+    #membership-hp img {
+        width: 21.5em;
+    }
+
+    #membership-hp div h2 {
+        font-size: 95%;
+
+    }
+
+    #sign-up-form {
+        width: 350px;
+    }
+
+    #container-4 {
+        font-size: 60%;
+    }
+
+    #sign-up-form h2 {
+        margin-bottom: 40px;
+    }
+}
+
+/* media queries for mobile devices */
+@media only screen and (max-width: 390px) { /* iphone 12 pro */
     #container-1 {
         font-size: 40%;
+    }
+
+    .social-networks {
+        font-size: 80%;
+        display: contents;
     }
 
     #mission-statement {
@@ -358,14 +458,71 @@ form {
         margin-right: 0px;
     }
 
-
-
     #membership-hp div h2 {
         font-size: 115%;
     }
 
-    .social-networks {
+    #one-month img,
+    #three-month img,
+    #six-month img {
+        width: 100%;
+    }
+
+    #sign-up-form {
+        width: 360px;
+        height: 325px;
+        font-size: 75%;
+    }
+
+    #sign-up-form h2 {
+        font-size: 65%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #sign-up-form {
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 320px) { /* iphone 5 */
+    #container-1 {
+        font-size: 22%;
+    }
+
+    .active {
+        font-weight: 400;
+    }
+
+    nav a:hover {
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+    }
+
+    #container-1,
+    #hero-image,
+    #fac-header,
+    #facilities,
+    #offer-header,
+    #membership-hp,
+    #socials-header,
+    #container-7 {
+        width: 100%;
+    }
+
+    #facilities img {
+        width: 355px;
+    }
+
+    #mission-statement {
+        width: 85%;
+    }
+
+    #membership-hp div h2 {
         font-size: 80%;
-        display: contents;
+    }
+
+    #copyright-info {
+        width: 80%;
     }
 }

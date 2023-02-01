@@ -116,15 +116,19 @@ To keep the website experience simple and easy to navigate I decided to go with 
 <details><summary>Home Page</Summary>
 <img src="assets/docs/homepage-wireframe.png">  
 </details>
+
 <details><summary>Membership Page</Summary>
 <img src="assets/docs/membership-wireframe.png">  
 </details>
+
 <details><summary>Sign Up Page</Summary>
 <img src="assets/docs/signup-wireframe.png">  
 </details>
+
 <details><summary>Tablet View</Summary>
 <img src="docs/wireframes/404.png">  
 </details>
+
 <details><summary>Mobile View</Summary>
 <img src="docs/wireframes/404.png">  
 </details>
@@ -152,6 +156,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - The nav bar includes a logo
 - The nav bar includes 3 menu options
 - The current page is highlighted 'bold'
+
 <details><summary>Header</Summary>
 <img src="assets/docs/header.PNG">  
 </details>
@@ -160,6 +165,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - The footer shows on every page
 - The footer includes links to social media accounts
 - The footer also has copyright text
+
 <details><summary>Footer</Summary>
 <img src="assets/docs/footer.PNG">  
 </details>
@@ -168,6 +174,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - The facilities are shown on the homepage
 - A description of the facilities is provided
 - They are also responsive to media screen sizes
+
 <details><summary>Facilities</Summary>
 <img src="assets/docs/facilities.PNG">  
 </details>
@@ -177,6 +184,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - By clicking the button on the homepage it redirects to the membership page
 - On the memberdship page it provides or relvant membership details
 - By clicking the sign up button it redirects them to the sign up page
+
 <details><summary>Memberships</Summary>
 <img src="assets/docs/memberships.PNG">  
 </details>
@@ -186,6 +194,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - The user fills out their details and membership preference
 - This form has a submit button 'Let's Get Fit!'
 - This form is sent to an email
+
 <details><summary>Sign Up Form</Summary>
 <img src="assets/docs/signup.PNG">  
 </details>
@@ -194,6 +203,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - A hero image is displayed on everypage
 - Every page has a different hero image
 - This hero image indicates what the current page is about
+
 <details><summary>Hero Image Home Page</Summary>
 <img src="assets/docs/hero-image-1.png">  
 </details>
@@ -207,6 +217,54 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 ## Validation
 
 ### HTML Validation
+To validate my HTML I used The Nu HTML Checker (W3C). This tool ensures any errors, warning or mistakes are detected before release. I ran this on all my pages and only a few issues were found in terms of headings and IDs. None that had any impacts on the overall result of the web page, although for future reference, I will take any issues found into consideration to ensure no errors are found.
+
+<details><summary>Homepage Validation</Summary>
+<img src="assets/docs/html-homepage-check.PNG">  
+</details>
+
+<details><summary>Membership Page Validation</Summary>
+<img src="assets/docs/html-membership-check.PNG">  
+</details>
+
+<details><summary>Sign Up Page Validation</Summary>
+<img src="assets/docs/html-signup-check.PNG">  
+</details>
+
+### CSS Validation
+To validate my CSS I used The W3C Jigsaw CSS Validation Service. This ensures any warning or errors are found. I ran the validation service for my web page and it passed without any errors.
+
+<details><summary>CSS Validation for Web Page</Summary>
+<img src="assets/docs/css-webpage-check.PNG">  
+</details>
+
+### Accessibility 
+I used the WAVE web evaluation tool by WebAIM to make sure my webpages met accessibility standards. All pages successfully passed.
+
+<details><summary>Home Page Accessibility</Summary>
+<img src="assets/docs/accessibility-index.PNG">  
+</details>
+
+<details><summary>Membership Page Accessibility</Summary>
+<img src="assets/docs/accessibility-membership.PNG">  
+</details>
+
+<details><summary>Sign Up Page Accessibility</Summary>
+<img src="assets/docs/accessibility-signup.PNG">  
+</details>
+
+### Performance
+
+To measure performance I used Google's Lighthouse tool in Chrome Developer Tools. This was to ensure all pages met a high standard in terms of performance accross different devices. Tests showed a high score on two devices, desktop and mobile
+
+<details><summary>Lighthouse - Desktop</Summary>
+<img src="assets/docs/lighthouse-desktop.PNG">  
+</details>
+
+<details><summary>Lighthouse - Mobile</Summary>
+<img src="assets/docs/lighthouse-mobile.PNG">  
+</details>
+
 
 
 

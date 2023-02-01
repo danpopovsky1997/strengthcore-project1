@@ -99,11 +99,11 @@ As a returning user,
 The website was designed to make it look modern, simplistic, easy to use and accessible.
 
 ### Colour
-I wanted to keep the color scheme simple and modern, with a touch of yellow as I feel this would make the webisite more appealing to the eye
+I wanted to keep the color scheme simple and modern, with a touch of yellow as I feel this would make the webisite more appealing to the eye.
 ![Colours image](assets/docs/colour-palette.PNG)
 
 ### Fonts
-The font I choice to use was "Kanit", with sans serif as the backup font. I feel this font gave off the modern vibe I was looking for
+The font I choice to use was "Kanit", with sans serif as the backup font. I feel this font gave off the modern vibe I was looking for.
 
 ### Structure
 To keep the website experience simple and easy to navigate I decided to go with navigation bar that displays the set menus: 
@@ -144,7 +144,7 @@ To design and build my website I used the following:
 - Canva
 
 ## Features 
-The website contains 3 pages the homepage, membership page, sign up page, 404 page and a total of 20 features
+The website contains 3 pages the homepage, membership page, sign up page, 404 page and a total of 20 features.
 
 ###Header (includes logo on the left and navigation on the right)
 - The nav bar shows every page

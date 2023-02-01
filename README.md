@@ -177,7 +177,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - By clicking the button on the homepage it redirects to the membership page
 - On the memberdship page it provides or relvant membership details
 - By clicking the sign up button it redirects them to the sign up page
-<details><summary>Membershipsr</Summary>
+<details><summary>Memberships</Summary>
 <img src="assets/docs/memberships.PNG">  
 </details>
 

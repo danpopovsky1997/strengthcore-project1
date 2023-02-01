@@ -153,7 +153,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - The nav bar includes 3 menu options
 - The current page is highlighted 'bold'
 <details><summary>Header</Summary>
-<img src="assets/docs/header.png">  
+<img src="assets/docs/header.PNG">  
 </details>
 
 ### Footer
@@ -161,7 +161,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - The footer includes links to social media accounts
 - The footer also has copyright text
 <details><summary>Footer</Summary>
-<img src="assets/docs/footer.png">  
+<img src="assets/docs/footer.PNG">  
 </details>
 
 ### Facilities
@@ -169,7 +169,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - A description of the facilities is provided
 - They are also responsive to media screen sizes
 <details><summary>Footer</Summary>
-<img src="assets/docs/facilities.png">  
+<img src="assets/docs/facilities.PNG">  
 </details>
 
 ### Membership Options
@@ -178,7 +178,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - On the memberdship page it provides or relvant membership details
 - By clicking the sign up button it redirects them to the sign up page
 <details><summary>Footer</Summary>
-<img src="assets/docs/memberships.png">  
+<img src="assets/docs/memberships.PNG">  
 </details>
 
 ### Sign Up Form
@@ -187,7 +187,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - This form has a submit button 'Let's Get Fit!'
 - This form is sent to an email
 <details><summary>Footer</Summary>
-<img src="assets/docs/signup.png">  
+<img src="assets/docs/signup.PNG">  
 </details>
 <details><summary>Footer</Summary>
 <img src="assets/docs/signup-form-sent.png">  

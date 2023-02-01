@@ -147,7 +147,7 @@ To design and build my website I used the following:
 ## Features 
 The website contains 3 pages the homepage, membership page, sign up page, 404 page and a total of 20 features.
 
-###Header (includes logo on the left and navigation on the right)
+### Header (includes logo on the left and navigation on the right)
 - The nav bar shows every page
 - The nav bar includes a logo
 - The nav bar includes 3 menu options
@@ -207,7 +207,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 <img src="assets/docs/hero-image-3.png">  
 </details>
 
-##Validation
+## Validation
 
 ### HTML Validation
 

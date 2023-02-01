@@ -178,7 +178,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - On the memberdship page it provides or relvant membership details
 - By clicking the sign up button it redirects them to the sign up page
 <details><summary>Footer</Summary>
-<img src="assets/docs/membership-options.png">  
+<img src="assets/docs/memberships.png">  
 </details>
 
 ### Sign Up Form
@@ -187,7 +187,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 - This form has a submit button 'Let's Get Fit!'
 - This form is sent to an email
 <details><summary>Footer</Summary>
-<img src="assets/docs/signup-form.png">  
+<img src="assets/docs/signup.png">  
 </details>
 <details><summary>Footer</Summary>
 <img src="assets/docs/signup-form-sent.png">  

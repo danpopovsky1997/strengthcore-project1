@@ -478,6 +478,8 @@ HTML: "i" tags with icons for the social media icons were imported from FontAwes
 
 CSS: The font "Kanit" was imported via Google Fonts
 
+README: Readme example (by Jarrad Baker, Skate Shack PP1) provided in Slack channel by tutor
+
 ## Acknowledgements 
 
 I would like to thank the following people in supporting my journey to become a developer: 

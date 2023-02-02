@@ -217,7 +217,6 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 ## Validation
 
 ### HTML Validation
-
 To validate my HTML I used The Nu HTML Checker (W3C). This tool ensures any errors, warning or mistakes are detected before release. I ran this on all my pages and only a few issues were found in terms of headings and IDs. None that had any impacts on the overall result of the web page, although for future reference, I will take any issues found into consideration to ensure no errors are found.
 
 <details><summary>Homepage Validation</Summary>
@@ -233,7 +232,6 @@ To validate my HTML I used The Nu HTML Checker (W3C). This tool ensures any erro
 </details>
 
 ### CSS Validation
-
 To validate my CSS I used The W3C Jigsaw CSS Validation Service. This ensures any warning or errors are found. I ran the validation service for my web page and it passed without any errors.
 
 <details><summary>CSS Validation for Web Page</Summary>
@@ -241,7 +239,6 @@ To validate my CSS I used The W3C Jigsaw CSS Validation Service. This ensures an
 </details>
 
 ### Accessibility 
-
 I used the WAVE web evaluation tool by WebAIM to make sure my webpages met accessibility standards. All pages successfully passed.
 
 <details><summary>Home Page Accessibility</Summary>
@@ -257,7 +254,6 @@ I used the WAVE web evaluation tool by WebAIM to make sure my webpages met acces
 </details>
 
 ### Performance
-
 To measure performance I used Google's Lighthouse tool in Chrome Developer Tools. This was to ensure all pages met a high standard in terms of performance accross different devices. Tests showed a high score on two devices, desktop and mobile
 
 <details><summary>Lighthouse - Desktop</Summary>
@@ -269,7 +265,6 @@ To measure performance I used Google's Lighthouse tool in Chrome Developer Tools
 </details>
 
 ### Performance tests on various devices
-
 Throughout the development of this webpage, I tested it's responivness on various devices to ensure it functioned as intended. 
 - iPhone 12 Pro Max
 - iPhone 5
@@ -328,7 +323,7 @@ I tested the website on the following web browsers to ensure consistency and res
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Sign Up Form | Navigate to the Sign Up page and find the sign up form | fill out the form | Works as expected |
+| Sign Up Form | Navigate to the Sign Up page and find the sign up form | Fill out the form | Works as expected |
 
 <details><summary>Screenshots</Summary>
 </details>
@@ -337,7 +332,7 @@ I tested the website on the following web browsers to ensure consistency and res
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+| Social Media Accounts | Navigate to the footer of any page and find the social icons | Click the icons | Works as expected |
 
 <details><summary>Screenshots</Summary>
 </details>
@@ -346,7 +341,7 @@ I tested the website on the following web browsers to ensure consistency and res
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+| Social Media Accounts | Navigate to the footer of any page and find the social icons | Click the icons | Works as expected |
 
 <details><summary>Screenshots</Summary>
 </details>
@@ -355,7 +350,7 @@ I tested the website on the following web browsers to ensure consistency and res
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+| Memberships | Navigate to the membership page | View products available | Works as expected |
 
 <details><summary>Screenshots</Summary>
 </details>
@@ -364,7 +359,7 @@ I tested the website on the following web browsers to ensure consistency and res
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+| All Pages | Add more information and products overtime | View when updates are made | Works as expected |
 
 <details><summary>Screenshots</Summary>
 </details>
@@ -373,7 +368,7 @@ I tested the website on the following web browsers to ensure consistency and res
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+| Home page | Navigate to the homepage | View our mission | Works as expected |
 
 <details><summary>Screenshots</Summary>
 </details>
@@ -382,7 +377,7 @@ I tested the website on the following web browsers to ensure consistency and res
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+| Sign up form | Navigate to the sign up page | Fill out relevant information | Works as expected |
 
 <details><summary>Screenshots</Summary>
 </details>
@@ -391,7 +386,7 @@ I tested the website on the following web browsers to ensure consistency and res
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+| Layout of the website | Make continious updates to webpage overtime | Customer sees visually appealing webpage | Works as expected |
 
 <details><summary>Screenshots</Summary>
 </details>
@@ -400,7 +395,7 @@ I tested the website on the following web browsers to ensure consistency and res
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+| Memberships and Sign Up | Navigate to the memberships page or sign up page | View details about memberships and use sign up form to submit interest | Works as expected |
 
 <details><summary>Screenshots</Summary>
 </details>
@@ -409,10 +404,12 @@ I tested the website on the following web browsers to ensure consistency and res
 
 | **Bug** | **Fix** |
 |---------|---------|
-| Height for most sections wasn't big enough | Removed the max-height value so the height would be as big as the actual content |
-| Grid items and Borders not fitting sizing | Added box-sixing: border-box and everything looked as it should |
-| Padding issue on tricks page for small mobile phone screens | Removed the padding for smaller screen sizes |
-| Social links not directing properly and not opening in a new tab | Corrected all links with http/https, and made them open in new tabs |
+| Nav bar would push over hero image when it was fixed | Removed the fixed value and it fixed the issue |
+| Facilities image would be too wide when shrinking the screen size | Made images display in a column form when screen size was smaller |
+| Membership images would be too wide when shrinking the screen size | Made images display in a column form when screen size was smaller |
+| On small mobile screens nav bar was out of place when hovering because of the 'bold value' | Removed the bold value on the nav bar for smaller screen sizes |
+| Social links too big for smaller screens | Ensured size of links was smaller depending on screen size |
+| Sign up form too big for smaller screens | Ensured size of form and font size was smaller was smaller depending on screen size |
 
 ## Deployment
 
@@ -424,7 +421,14 @@ The webpage is deployed using GitHub Pages and can be carried out by performing 
 5. Click "Save" and following the page refresh, you should be provided with a URL link of the publish site
 
 If you would like to fork my repository, make sure that you follow the steps provided:
-1. Go the the repository you wish to fork
+1. Go to the repository you wish to fork
+2. Click on the "Fork" button in the right corner at the top
+3. Select the desired owner and repository name. You may add a description of choice
+4. Ensure that you copy to a default brand or all branches
+5. Click "Create Form"
+
+If you wish to clone a repository, follow the steps below:
+1. Go the the repository you wish to clone
 2. Click the "Code" button above the files
 3. Selected the method you wish to use when cloning, which would ethier be HTTPS, SSH or GitHub CLI
 4. Open Git Bash
@@ -438,17 +442,20 @@ If you would like to fork my repository, make sure that you follow the steps pro
 
 #### Images
 
-- cardio-pic.png created by myself using Canva
-- cover-image.png created by myself using Canva
-- memberships-page.png created by myself using Canva
-- one-month.png created by myself using Canva
-- sign-up-page.png created by myself using Canva
-- sign-up.png created by myself using Canva
-- six-month.png
-- three-month.png
-- weights-room.png
+- cardio-pic.png created myself using Canva at www.canva.com
+- cover-image.png created myself using Canva www.canva.com
+- memberships-page.png created myself using Canva www.canva.com
+- one-month.png created myself using Canva www.canva.com
+- sign-up-page.png created myself using Canva www.canva.com
+- sign-up.png found through Google Images www.google.com/images
+- six-month.png created myself using Canva www.canva.com
+- three-month.png created myself using Canva www.canva.com
+- weights-room.png created myself using Canva www.canva.com
 
 ### Code
+
+HTML: "i" tags with icons for the social media icons were imported from FontAwesome
+CSS: The font "Kanit" was imported via Google Fonts
 
 ## Acknowledgements 
 

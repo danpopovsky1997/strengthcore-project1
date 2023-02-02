@@ -40,8 +40,8 @@
 ## Project Goals 
 
 ### User Goals
-- Find a quality gym that provides state of the art facilities
-- See pricing for memberships for the facilty
+- Find a quality gym that provides state-of-the-art facilities
+- Check pricing for memberships for the facilty
 - Learn about the mission of the facility
 - Be able to navigate through each page with ease
 - An easy to follow sign up process

@@ -254,7 +254,6 @@ I used the WAVE web evaluation tool by WebAIM to make sure my webpages met acces
 </details>
 
 ### Performance
-
 To measure performance I used Google's Lighthouse tool in Chrome Developer Tools. This was to ensure all pages met a high standard in terms of performance accross different devices. Tests showed a high score on two devices, desktop and mobile
 
 <details><summary>Lighthouse - Desktop</Summary>
@@ -264,6 +263,182 @@ To measure performance I used Google's Lighthouse tool in Chrome Developer Tools
 <details><summary>Lighthouse - Mobile</Summary>
 <img src="assets/docs/lighthouse-mobile.PNG">  
 </details>
+
+### Performance tests on various devices
+Throughout the development of this webpage, I tested it's responivness on various devices to ensure it functioned as intended. 
+- iPhone 12 Pro Max
+- iPhone 5
+- iPad Air
+- MacBook Pro laptop
+- Desktop PC with a 24" monitor
+
+### Browser Compatibility
+I tested the website on the following web browsers to ensure consistency and responisvness:
+- Google Chrome
+- Edge
+- Opera
+- Mozilla Firefox
+
+### Testing User Stories
+1. As a first time user, I want to undestand what the gym provides
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Facilities | Navigate to the Home page and find the facilities images | See the facilites | Works as expected |
+| Memberships | Navigate to the Memberships page and find the memberships | See the memberships | Works as expected |
+
+<details><summary>Screenshots</Summary>
+
+2. As a first time user, I want to know about the gym's mission
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Mission Statement | Navigate to the Home page and find the mission statement | See the mission | Works as expected |
+
+<details><summary>Screenshots</Summary>
+
+3. As a first time user, I want to know what the gym offers 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Facilities | Navigate to the Home page and find the facilities images | See the facilites | Works as expected |
+| Memberships | Navigate to the Memberships page and find the memberships | See the memberships | Works as expected |
+
+<details><summary>Screenshots</Summary>
+
+
+4. As a first time user, I want to see infomation about the different kinds of membership the gym offers
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Memberships | Navigate to the Memberships page and find the memberships | See the memberships | Works as expected |
+
+<details><summary>Screenshots</Summary>
+
+5. As a first time user, I want to be able to navigate to the sign up page easily
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Sign Up Form | Navigate to the Sign Up page and find the sign up form | fill out the form | Works as expected |
+
+<details><summary>Screenshots</Summary>
+
+6. As a first time user, I want to access the gym's social media accounts
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+
+<details><summary>Screenshots</Summary>
+
+7. As a returning user, I want to be able to communicate to with the gym via social links 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+
+<details><summary>Screenshots</Summary>
+
+8. As a returning user, I want to be able to look at more products 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+
+<details><summary>Screenshots</Summary>
+
+9. As a returning user, I want to see more updates made to the website in terms of accessibility and information
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+
+<details><summary>Screenshots</Summary>
+
+10. As a site owner, I want to get our mission across
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+
+<details><summary>Screenshots</Summary>
+
+11. As a site owner, I want the customer to find sign up with ease
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+
+<details><summary>Screenshots</Summary>
+
+12. As a site owner, I want the website to be visually appealing to the customer
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+
+<details><summary>Screenshots</Summary>
+
+13. As a site owner, I want the function of the website to be clear
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Social Media Accounts | Navigate to the footer of any page and find the social icons | click the icons | Works as expected |
+
+<details><summary>Screenshots</Summary>
+
+## Bugs
+
+| **Bug** | **Fix** |
+|---------|---------|
+| Height for most sections wasn't big enough | Removed the max-height value so the height would be as big as the actual content |
+| Grid items and Borders not fitting sizing | Added box-sixing: border-box and everything looked as it should |
+| Padding issue on tricks page for small mobile phone screens | Removed the padding for smaller screen sizes |
+| Social links not directing properly and not opening in a new tab | Corrected all links with http/https, and made them open in new tabs |
+
+## Deployment
+
+The webpage is deployed using GitHub Pages and can be carried out by performing the following steps:
+1. In the repo, navigate to the settings
+2. from the menu on the left hand side of the screen click on "Pages"
+3. Ensure that you set the "source" to "Deploy from branch
+4. Select your desired "Branch" from the drop down menu
+5. Click "Save" and following the page refresh, you should be provided with a URL link of the publish site
+
+If you would like to fork my repository, make sure that you follow the steps provided:
+1. Go the the repository you wish to fork
+2. Click the "Code" button above the files
+3. Selected the method you wish to use when cloning, which would ethier be HTTPS, SSH or GitHub CLI
+4. Open Git Bash
+5. Chanage the current directory to the location you wish to have the cloned directory
+6. Proceed to type "git clone", and then ensure that the URL you copied is pasted. It should look like the following with your GitHub username instead of the "YOUR-USERNAME": "$ git clone https://github.com/YOUR-USERNAME/DESIRED-REPOSITORY"
+7. When you press enter, the local clone will be created successfully
+
+## Credits
+
+### Media
+
+#### Images
+
+- cardio-pic.png created by myself using Canva
+- cover-image.png created by myself using Canva
+- memberships-page.png created by myself using Canva
+- one-month.png created by myself using Canva
+- sign-up-page.png created by myself using Canva
+- sign-up.png created by myself using Canva
+- six-month.png
+- three-month.png
+- weights-room.png
+
+### Code
+
+## Acknowledgements 
+
+I would like to thank the following people in supporting my journey to become a developer: 
+- My partner Sarah, who constantly motivates me to never give up no matter how I feel
+- My parents, who encourage me to do something I love
+- My work boss, who constantly supports me by allowing me to balance work and education
+- My mentor Jack Wachira, who has been there as a support during our calls and answers any questions I have
+- My slack team, who are on the same path to success as me and are always there to help
 
 
 

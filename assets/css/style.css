@@ -172,6 +172,7 @@ nav a:hover {
 
 .social-networks {
     text-align: center;
+    display: contents;
 }
 
 .social-networks>li {

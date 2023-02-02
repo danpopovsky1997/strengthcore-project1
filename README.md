@@ -217,6 +217,7 @@ The website contains 3 pages the homepage, membership page, sign up page, 404 pa
 ## Validation
 
 ### HTML Validation
+
 To validate my HTML I used The Nu HTML Checker (W3C). This tool ensures any errors, warning or mistakes are detected before release. I ran this on all my pages and only a few issues were found in terms of headings and IDs. None that had any impacts on the overall result of the web page, although for future reference, I will take any issues found into consideration to ensure no errors are found.
 
 <details><summary>Homepage Validation</Summary>
@@ -232,6 +233,7 @@ To validate my HTML I used The Nu HTML Checker (W3C). This tool ensures any erro
 </details>
 
 ### CSS Validation
+
 To validate my CSS I used The W3C Jigsaw CSS Validation Service. This ensures any warning or errors are found. I ran the validation service for my web page and it passed without any errors.
 
 <details><summary>CSS Validation for Web Page</Summary>
@@ -239,6 +241,7 @@ To validate my CSS I used The W3C Jigsaw CSS Validation Service. This ensures an
 </details>
 
 ### Accessibility 
+
 I used the WAVE web evaluation tool by WebAIM to make sure my webpages met accessibility standards. All pages successfully passed.
 
 <details><summary>Home Page Accessibility</Summary>
@@ -254,6 +257,7 @@ I used the WAVE web evaluation tool by WebAIM to make sure my webpages met acces
 </details>
 
 ### Performance
+
 To measure performance I used Google's Lighthouse tool in Chrome Developer Tools. This was to ensure all pages met a high standard in terms of performance accross different devices. Tests showed a high score on two devices, desktop and mobile
 
 <details><summary>Lighthouse - Desktop</Summary>
@@ -265,6 +269,7 @@ To measure performance I used Google's Lighthouse tool in Chrome Developer Tools
 </details>
 
 ### Performance tests on various devices
+
 Throughout the development of this webpage, I tested it's responivness on various devices to ensure it functioned as intended. 
 - iPhone 12 Pro Max
 - iPhone 5
@@ -320,6 +325,7 @@ I tested the website on the following web browsers to ensure consistency and res
 </details>
 
 5. As a first time user, I want to be able to navigate to the sign up page easily
+
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Sign Up Form | Navigate to the Sign Up page and find the sign up form | fill out the form | Works as expected |

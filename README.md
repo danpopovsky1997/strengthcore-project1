@@ -126,11 +126,11 @@ To keep the website experience simple and easy to navigate I decided to go with 
 </details>
 
 <details><summary>Tablet View</Summary>
-<img src="docs/wireframes/404.png">  
+<img src="assets/docs/wireframe-tablet.png">  
 </details>
 
 <details><summary>Mobile View</Summary>
-<img src="docs/wireframes/404.png">  
+<img src="assets/docs/wireframe-mobile.png">  
 </details>
 
 ## Technologies Used

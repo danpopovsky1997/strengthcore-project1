@@ -287,7 +287,12 @@ I tested the website on the following web browsers to ensure consistency and res
 | Facilities | Navigate to the Home page and find the facilities images | See the facilites | Works as expected |
 | Memberships | Navigate to the Memberships page and find the memberships | See the memberships | Works as expected |
 
-<details><summary>Screenshots</Summary>
+<details><summary>Facilities - See the facilities on the home page</Summary>
+<img src="assets/docs/tus-1.PNG">  
+</details>
+
+<details><summary>Memberships - See the memberships on the membership page</Summary>
+<img src="assets/docs/tus-2.PNG">  
 </details>
 
 2. As a first time user, I want to know about the gym's mission
@@ -296,7 +301,8 @@ I tested the website on the following web browsers to ensure consistency and res
 |-------------|------------|---------------------|-------------------|
 | Mission Statement | Navigate to the Home page and find the mission statement | See the mission | Works as expected |
 
-<details><summary>Screenshots</Summary>
+<details><summary>Mission Statement - Can be seen on the homepage</Summary>
+<img src="assets/docs/tus-3.PNG">  
 </details>
 
 3. As a first time user, I want to know what the gym offers 
@@ -306,7 +312,12 @@ I tested the website on the following web browsers to ensure consistency and res
 | Facilities | Navigate to the Home page and find the facilities images | See the facilites | Works as expected |
 | Memberships | Navigate to the Memberships page and find the memberships | See the memberships | Works as expected |
 
-<details><summary>Screenshots</Summary>
+<details><summary>Facilities - See the facilities on the home page</Summary>
+<img src="assets/docs/tus-4.PNG">  
+</details>
+
+<details><summary>Memberships - See the memberships on the membership page</Summary>
+<img src="assets/docs/tus-5.PNG">  
 </details>
 
 
@@ -316,7 +327,8 @@ I tested the website on the following web browsers to ensure consistency and res
 |-------------|------------|---------------------|-------------------|
 | Memberships | Navigate to the Memberships page and find the memberships | See the memberships | Works as expected |
 
-<details><summary>Screenshots</Summary>
+<details><summary>Memberships - Navigate the memberships</Summary>
+<img src="assets/docs/tus-6.PNG">  
 </details>
 
 5. As a first time user, I want to be able to navigate to the sign up page easily
@@ -325,7 +337,8 @@ I tested the website on the following web browsers to ensure consistency and res
 |-------------|------------|---------------------|-------------------|
 | Sign Up Form | Navigate to the Sign Up page and find the sign up form | Fill out the form | Works as expected |
 
-<details><summary>Screenshots</Summary>
+<details><summary>Sign Up Form - Naviagte the sign up form</Summary>
+<img src="assets/docs/tus-7.PNG">  
 </details>
 
 6. As a first time user, I want to access the gym's social media accounts
@@ -334,7 +347,8 @@ I tested the website on the following web browsers to ensure consistency and res
 |-------------|------------|---------------------|-------------------|
 | Social Media Accounts | Navigate to the footer of any page and find the social icons | Click the icons | Works as expected |
 
-<details><summary>Screenshots</Summary>
+<details><summary>Social Media - Navigate the social media accounts</Summary>
+<img src="assets/docs/tus-8.PNG">  
 </details>
 
 7. As a returning user, I want to be able to communicate to with the gym via social links 
@@ -343,7 +357,8 @@ I tested the website on the following web browsers to ensure consistency and res
 |-------------|------------|---------------------|-------------------|
 | Social Media Accounts | Navigate to the footer of any page and find the social icons | Click the icons | Works as expected |
 
-<details><summary>Screenshots</Summary>
+<details><summary>Social Media - Navigate the social media accounts</Summary>
+<img src="assets/docs/tus-9.PNG">  
 </details>
 
 8. As a returning user, I want to be able to look at more products 
@@ -352,7 +367,8 @@ I tested the website on the following web browsers to ensure consistency and res
 |-------------|------------|---------------------|-------------------|
 | Memberships | Navigate to the membership page | View products available | Works as expected |
 
-<details><summary>Screenshots</Summary>
+<details><summary>Memberships - Navigate to the Memberships for future new products</Summary>
+<img src="assets/docs/tus-10.PNG">  
 </details>
 
 9. As a returning user, I want to see more updates made to the website in terms of accessibility and information
@@ -361,7 +377,8 @@ I tested the website on the following web browsers to ensure consistency and res
 |-------------|------------|---------------------|-------------------|
 | All Pages | Add more information and products overtime | View when updates are made | Works as expected |
 
-<details><summary>Screenshots</Summary>
+<details><summary>Home page - New updates will be displayed on the home page</Summary>
+<img src="assets/docs/tus-11.PNG">  
 </details>
 
 10. As a site owner, I want to get our mission across
@@ -370,7 +387,8 @@ I tested the website on the following web browsers to ensure consistency and res
 |-------------|------------|---------------------|-------------------|
 | Home page | Navigate to the homepage | View our mission | Works as expected |
 
-<details><summary>Screenshots</Summary>
+<details><summary>Mission Statement - Can be seen below the hero image</Summary>
+<img src="assets/docs/tus-12.PNG">  
 </details>
 
 11. As a site owner, I want the customer to find sign up with ease
@@ -379,7 +397,8 @@ I tested the website on the following web browsers to ensure consistency and res
 |-------------|------------|---------------------|-------------------|
 | Sign up form | Navigate to the sign up page | Fill out relevant information | Works as expected |
 
-<details><summary>Screenshots</Summary>
+<details><summary>Sign Up Form - Fill out the sign up form</Summary>
+<img src="assets/docs/tus-13.PNG">  
 </details>
 
 12. As a site owner, I want the website to be visually appealing to the customer
@@ -388,7 +407,8 @@ I tested the website on the following web browsers to ensure consistency and res
 |-------------|------------|---------------------|-------------------|
 | Layout of the website | Make continious updates to webpage overtime | Customer sees visually appealing webpage | Works as expected |
 
-<details><summary>Screenshots</Summary>
+<details><summary>Visual Updates - Will be seen on the home page below</Summary>
+<img src="assets/docs/tus-14.PNG">  
 </details>
 
 13. As a site owner, I want the function of the website to be clear
@@ -397,7 +417,8 @@ I tested the website on the following web browsers to ensure consistency and res
 |-------------|------------|---------------------|-------------------|
 | Memberships and Sign Up | Navigate to the memberships page or sign up page | View details about memberships and use sign up form to submit interest | Works as expected |
 
-<details><summary>Screenshots</Summary>
+<details><summary>Two Main Functions - Membership offers and sign up page</Summary>
+<img src="assets/docs/tus-15.PNG">  
 </details>
 
 ## Bugs
@@ -455,6 +476,7 @@ If you wish to clone a repository, follow the steps below:
 ### Code
 
 HTML: "i" tags with icons for the social media icons were imported from FontAwesome
+
 CSS: The font "Kanit" was imported via Google Fonts
 
 ## Acknowledgements 
